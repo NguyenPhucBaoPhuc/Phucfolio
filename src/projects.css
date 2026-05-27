@@ -72,6 +72,17 @@
   position: relative;
 }
 
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.project-card:hover .project-image img {
+  transform: scale(1.05);
+}
+
 .project-image::after {
   content: '';
   position: absolute;
