@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default defineConfig({
   build: {
